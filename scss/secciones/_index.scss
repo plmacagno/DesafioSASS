@@ -1,0 +1,40 @@
+//  Anidación
+.contenedor {
+    background-color: $azul;
+
+    .titulo {
+        color: $color-primario;
+
+        &:hover {
+            color: $color-fondo;
+        }
+    }
+
+    &:hover {
+        background-color: coral;
+    }
+}
+
+main {
+    background-color: $color-fondo;
+    display: flex;
+    .parrafo{
+        color: red;
+        text-align: center;
+    }
+    .titulo {
+        color: $color-primario;
+    }
+    
+}
+
+footer {
+    background-color: gray;
+
+    .h3 {
+        color: white;
+        margin-top: 0PX;
+    }
+}
+
+@media (min-width: 768px) {}

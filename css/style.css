@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Vollkorn:wght@400;600;900&display=swap");
+header {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center; }
+  header ul {
+    display: flex; }
+    header ul li {
+      list-style: none;
+      margin: 5px;
+      font-size: small; }
+
+.contenedor {
+  background-color: #4F86C6; }
+  .contenedor .titulo {
+    color: #1A1A40; }
+    .contenedor .titulo:hover {
+      color: #abdfd5; }
+  .contenedor:hover {
+    background-color: coral; }
+
+main {
+  background-color: #abdfd5;
+  display: flex; }
+  main .parrafo {
+    color: red;
+    text-align: center; }
+  main .titulo {
+    color: #1A1A40; }
+
+footer {
+  background-color: gray; }
+  footer .h3 {
+    color: white;
+    margin-top: 0PX; }
